@@ -1,0 +1,21 @@
+{
+    "schema": "http://json-schema.org/schema",
+    "$id": "schema:peripheral",
+    "title": "peripheral",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type" : "string",
+            "description": "peripheral name"
+        },
+        "version": {
+            "type" : "string",
+            "description" : "id number"
+        },
+        "vendor": {
+            "type" : "string",
+            "description" : "vendor"
+        }
+    },
+    "required": [ "name", "version", "vendor"]
+}

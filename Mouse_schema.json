@@ -1,0 +1,12 @@
+{
+    "schema": "http://json-schema.org/schema",
+    "$id": "schema:mouse",
+    "$ref": "./Peripheral_schema.json",
+    "title": "mouse",
+    "type": "object",
+    "properties": {
+        "buttonCount": { "type": "integer" },
+        "trackingType": { "enum": [ "ball", "optical" ] }
+    },
+    "required": [ "buttonCount", "trackingType" ]
+}

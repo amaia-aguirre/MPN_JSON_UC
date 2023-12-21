@@ -1,0 +1,8 @@
+{
+    "$schema": "./Mouse_schema.json",
+    "name": "my_mouse",
+    "version": "my_version",
+    "vendor": "my_vendor",
+    "buttonCount": 12,
+    "trackingType": "ball"
+}

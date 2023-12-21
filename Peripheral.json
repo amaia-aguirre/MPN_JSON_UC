@@ -1,0 +1,6 @@
+{
+    "$schema": "./Peripheral_schema.json",
+    "name": "my_name",
+    "version": "my_version",
+    "vendor": "my_vendor" 
+}
